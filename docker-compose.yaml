@@ -27,6 +27,8 @@ services:
     depends_on:
       - zipkin
       - users-api
+    ports:
+      - 2345:2345
 
   todos-api:
     build: ./todos-api
@@ -51,6 +53,8 @@ services:
      SPRING_ZIPKIN_BASE_URL: http://zipkin:9411
     depends_on:
       - zipkin
+    ports:
+      - 8787:8787
      
   log-message-processor:
     build: ./log-message-processor

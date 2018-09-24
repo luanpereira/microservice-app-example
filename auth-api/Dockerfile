@@ -1,6 +1,6 @@
 FROM golang:1.9-alpine
 
-EXPOSE 8081
+EXPOSE 8081 2345
 
 WORKDIR /go/src/app
 RUN apk --no-cache add curl git && \
