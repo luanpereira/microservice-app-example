@@ -39,6 +39,7 @@ func main() {
 			"admin_admin": nil,
 			"johnd_foo":   nil,
 			"janed_ddd":   nil,
+			"luan_123":   nil,
 		},
 	}
 

@@ -14,6 +14,7 @@ var allowedUserHashes = map[string]interface{}{
 	"admin_admin": nil,
 	"johnd_foo":   nil,
 	"janed_ddd":   nil,
+	"luan_123":   nil,
 }
 
 type User struct {
